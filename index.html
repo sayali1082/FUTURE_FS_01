@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sayali Lande | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Sayali Lande showcasing frontend development skills, selected projects, resume highlights, and contact information."
+    />
+    <meta
+      name="keywords"
+      content="portfolio website, frontend developer, web designer, JavaScript, HTML, CSS, personal portfolio"
+    />
+    <meta name="author" content="Sayali Lande" />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Sayali Lande | Portfolio" />
+    <meta
+      property="og:description"
+      content="Interactive portfolio with resume, featured projects, skills, and a contact form."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=1200&q=80" />
+    <meta name="theme-color" content="#111111" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sayali Lande",
+        "jobTitle": "Frontend Developer",
+        "url": "https://example.com",
+        "sameAs": [
+          "https://www.linkedin.com/",
+          "https://github.com/",
+          "https://dribbble.com/"
+        ],
+        "knowsAbout": ["HTML", "CSS", "JavaScript", "UI Design", "SEO"],
+        "description": "Frontend developer focused on elegant interfaces, responsive systems, and performance-driven websites."
+      }
+    </script>
+  </head>
+  <body>
+    <div class="page-shell"></div>
+
+    <header class="site-header" id="top">
+      <nav class="nav container">
+        <a class="brand" href="#top" aria-label="Sayali Lande Home">
+          <span class="brand-mark">SL</span>
+          <span class="brand-text">Sayali Lande</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact" class="nav-cta">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container section" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+
+
+           <img class="hero-image" src="WhatsApp Image 2026-02-02 at 8.51.02 AM.jpeg" alt="Abstract geometric shapes with smooth gradients and subtle shadows, representing modern web design aesthetics." />
+
+
+          <p class="eyebrow">Frontend Developer · UI Engineer · Problem Solver</p>
+          <h1 id="hero-title">
+            I build calm, modern web experiences with thoughtful motion.
+          </h1>
+          <p class="hero-text">
+            I design and develop portfolio sites, product pages, and dashboards that
+            feel polished, fast, and easy to use. My work blends strong visual systems,
+            clean code, and SEO-aware architecture.
+          </p>
+
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Let’s Work Together</a>
+          </div>
+
+          <ul class="hero-metrics" aria-label="Career highlights">
+            <li>
+              <strong data-count="4">0</strong>
+              <span>Years building interfaces</span>
+            </li>
+            <li>
+              <strong data-count="18">0</strong>
+              <span>Projects shipped</span>
+            </li>
+            <li>
+              <strong data-count="96">0</strong>
+              <span>Performance score target</span>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="hero-card reveal delay-1" aria-label="Professional summary">
+          <div class="status-pill">Available for freelance & full-time roles</div>
+          <div class="hero-card-grid">
+            <div>
+              <span>Focus</span>
+              <strong>Responsive Frontend Systems</strong>
+            </div>
+            <div>
+              <span>Stack</span>
+              <strong>HTML · CSS · JavaScript</strong>
+            </div>
+            <div>
+              <span>Location</span>
+              <strong>Remote / Worldwide</strong>
+            </div>
+            <div>
+              <span>Specialty</span>
+              <strong>Motion + Clarity + Conversion</strong>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section container" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>Professional profile with strategy, design, and code.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="about-card reveal delay-1">
+            <p>
+              I’m a frontend developer who enjoys turning complex ideas into refined,
+              intuitive websites. My process starts with structure, continues through
+              interface design, and finishes with lightweight, maintainable code.
+            </p>
+            <p>
+              I care deeply about motion design, accessibility, page speed, and
+              content hierarchy, so every project looks elegant while still performing
+              like a professional product.
+            </p>
+          </article>
+          <div class="about-points reveal delay-2">
+            <div class="point-card">
+              <h3>User-first thinking</h3>
+              <p>Interfaces designed for clarity, hierarchy, and real engagement.</p>
+            </div>
+            <div class="point-card">
+              <h3>Conversion-aware layouts</h3>
+              <p>Landing pages and portfolios built to guide action naturally.</p>
+            </div>
+            <div class="point-card">
+              <h3>Performance-led development</h3>
+              <p>Clean semantic code with smooth transitions and responsive behavior.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Core capabilities across design and frontend development.</h2>
+        </div>
+
+        <div class="skills-layout">
+          <article class="skills-panel reveal delay-1">
+            <div class="panel-head">
+              <h3>Technical stack</h3>
+              <span>Interactive overview</span>
+            </div>
+            <div class="skill-chips">
+              <button class="skill-chip active" data-skill="frontend">Frontend</button>
+              <button class="skill-chip" data-skill="design">Design</button>
+              <button class="skill-chip" data-skill="seo">SEO</button>
+              <button class="skill-chip" data-skill="workflow">Workflow</button>
+            </div>
+            <div class="skill-content" id="skill-content"></div>
+          </article>
+
+          <aside class="toolkit-card reveal delay-2">
+            <h3>Toolkit</h3>
+            <ul>
+              <li>Semantic HTML5 architecture</li>
+              <li>Modern CSS animations & layout systems</li>
+              <li>Vanilla JavaScript interactions</li>
+              <li>Responsive portfolio & landing pages</li>
+              <li>On-page SEO structure</li>
+              <li>Contact workflows with EmailJS/FormSubmit</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section container" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work with strong visual systems and measurable goals.</h2>
+        </div>
+
+
+
+
+        <div class="project-filters reveal delay-1">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+          <button class="filter-btn" data-filter="product">Product</button>
+          <button class="filter-btn" data-filter="dashboard">Dashboard</button>
+        </div>
+
+
+
+        <div class="projects-grid">
+          <!-- <article class="project-card reveal delay-1" data-category="portfolio">
+            <div class="project-badge">Portfolio</div>
+
+
+            <div class="project-image">
+    <img
+      src="https://th.bing.com/th/id/OIP.9VGPmrFwv5efx2jWmABMHgHaEO?w=298&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+      alt="SayClo Clothing Website"
+    />
+  </div>
+            <h3>Studio Personal Brand Site</h3>
+            <p>
+              A high-end personal brand portfolio with editorial typography, layered
+              animation, and strong SEO-ready section structure.
+            </p>
+            <ul>
+              <li>Animated section reveals</li>
+              <li>Conversion-focused hero design</li>
+              <li>Mobile-first responsive system</li>
+            </ul>
+          </article> -->
+
+
+            <article class="project-card reveal delay-4" data-category="webapp">
+          <div class="project-badge">Productivity</div> 
+          <!-- Project Image -->
+             <div class="project-image">
+                <img
+                  src="Screenshot 2026-05-27 182139.png"
+                  alt="SayClo Clothing Website"
+                />
+              </div>
+
+          <h3>TaskFlow - To-Do List Application</h3>
+          <p>
+            A modern task management application designed to help users organize,
+            track, and prioritize daily activities through an intuitive and responsive
+            interface, improving productivity and workflow efficiency.
+          </p>
+
+          <ul>
+            <li>Create, edit, and delete tasks</li>
+            <li>Task status management & filtering</li>
+            <li>Responsive and user-friendly interface</li>
+          </ul>
+
+          <div class="project-links">
+            <a href="https://todo-list-oa6p.vercel.app/" target="_blank" rel="noopener">
+              Live Demo →
+            </a>
+          </div>
+        </article>
+
+
+
+              <article class="project-card reveal delay-2" data-category="product">
+        <div class="project-badge">E-Commerce</div>
+
+            <!-- Project Image -->
+            <div class="project-image">
+              <img
+                src="Screenshot 2026-05-26 090811.png"
+                alt="SayClo Clothing Website"
+              />
+            </div>
+
+              <h3>SayClo Clothing Website</h3>
+
+              <p>
+                A modern and responsive fashion e-commerce website built for SayClo,
+                featuring a clean user interface, product showcase sections, smooth
+                navigation, and an engaging shopping experience across all devices.
+              </p>
+
+              <ul>
+                <li>Responsive fashion storefront</li>
+                <li>Modern product showcase design</li>
+                <li>Optimized user experience & navigation</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="https://sayclo-sayali.vercel.app/" target="_blank" rel="noopener">
+                  Live Demo →
+                </a>
+              </div>
+            </article>
+
+
+
+                <article class="project-card reveal delay-3" data-category="webapp">
+                <div class="project-badge">Social Media</div>
+                
+                <div class="project-image">
+          <img
+            src="https://img.freepik.com/premium-photo/instagram-logo-with-inscription-technological-plate-3d_327483-425.jpg?w=2000"
+          />
+        </div>
+                <h3>Instagram Clone</h3>
+                <p>
+                  A full-stack social media platform inspired by Instagram, allowing users
+                  to create posts, upload images, interact with content, and manage their
+                  profiles through a modern and responsive interface.
+                </p>
+
+                <ul>
+                  <li>User authentication & profiles</li>
+                  <li>Post creation, likes & comments</li>
+                  <li>Responsive social feed experience</li>
+                </ul>
+
+                <div class="project-links">
+                  <a href="https://instaclone-inky.vercel.app/" target="_blank" rel="noopener">
+                    Live Demo →
+                  </a>
+                  <!-- <a href="https://github.com/yourusername/instagram-clone" target="_blank" rel="noopener">
+                    GitHub →
+                  </a> -->
+                </div>
+            </article>
+            
+
+            <!-- <article class="project-card reveal delay-4" data-category="webapp">
+                <div class="project-badge">Productivity</div> -->
+                <!-- Project Image -->
+                    <!-- <div class="project-image">
+                      <img
+                        src="Screenshot 2026-05-26 090811.png"
+                        alt="SayClo Clothing Website"
+                      />
+                    </div>
+
+                <h3>TaskFlow - To-Do List Application</h3>
+                <p>
+                  A modern task management application designed to help users organize,
+                  track, and prioritize daily activities through an intuitive and responsive
+                  interface, improving productivity and workflow efficiency.
+                </p>
+
+                <ul>
+                  <li>Create, edit, and delete tasks</li>
+                  <li>Task status management & filtering</li>
+                  <li>Responsive and user-friendly interface</li>
+                </ul>
+
+                <div class="project-links">
+                  <a href="https://todo-list-oa6p.vercel.app/" target="_blank" rel="noopener">
+                    Live Demo →
+                  </a>
+                </div>
+              </article> -->
+
+                <article class="project-card reveal delay-5" data-category="webapp">
+                  <div class="project-badge">Entertainment</div>
+
+                  <!-- Project Image -->
+                  <div class="project-image">
+                    <img
+                      src="Screenshot 2026-05-27 185638.png"
+                      alt="Netflix Clone"
+                    />
+                  </div>
+
+                  <h3>Netflix Clone</h3>
+
+                  <p>
+                    A modern Netflix-inspired streaming platform featuring a sleek user
+                    interface, dynamic movie showcases, responsive layouts, and immersive
+                    browsing experiences designed to replicate a real-world OTT application.
+                  </p>
+
+                  <ul>
+                    <li>Responsive movie browsing interface</li>
+                    <li>Dynamic content sections & banners</li>
+                    <li>Modern UI inspired by Netflix</li>
+                  </ul>
+
+                  <div class="project-links">
+                    <a href="https://netflix-clone-sigma-six-82.vercel.app/" target="_blank" rel="noopener">
+                      Live Demo →
+                    </a>
+                  </div>
+                </article>
+
+
+                <article class="project-card reveal delay-5" data-category="webapp">
+        <div class="project-badge">Beauty & Wellness</div>
+
+        <!-- Project Image -->
+        <div class="project-image">
+          <img
+            src="Screenshot 2026-05-27 192314.png"
+            alt="Girls Salon Website"
+          />
+        </div>
+
+        <h3>Girls Salon Website</h3>
+
+        <p>
+          A modern and elegant salon website designed to showcase beauty services,
+          bridal makeovers, skincare treatments, and online appointment booking.
+          Built with a luxurious user interface, responsive layouts, and engaging
+          visuals to enhance customer experience and increase salon bookings.
+        </p>
+
+        <ul>
+          <li>Online appointment booking system</li>
+          <li>Service showcase with pricing details</li>
+          <li>Responsive and premium salon UI design</li>
+        </ul>
+
+        <div class="project-links">
+          <a href="" target="_blank" rel="noopener">
+            Live Demo →
+          </a>
+        </div>
+      </article>
+
+
+                    <article class="project-card reveal delay-5" data-category="webapp">
+            <div class="project-badge">Developer Tool</div>
+
+            <!-- Project Image -->
+            <div class="project-image">
+              <img
+                src="Screenshot 2026-05-27 192347.png"
+                alt="Dev Tracker Application"
+              />
+            </div>
+
+            <h3>Dev Tracker</h3>
+
+            <p>
+              A modern developer productivity platform designed to help programmers
+              track projects, manage development tasks, monitor progress, and stay
+              organized through a clean and responsive interface built for efficient
+              workflow management.
+            </p>
+
+            <ul>
+              <li>Project and task management system</li>
+              <li>Progress tracking and productivity dashboard</li>
+              <li>Responsive and developer-friendly UI</li>
+            </ul>
+
+            <div class="project-links">
+              <a
+                href="https://dev-tracker-five.vercel.app/"
+                target="_blank"
+                rel="noopener"
+              >
+                Live Demo →
+              </a>
+            </div>
+          </article>
+
+
+
+
+          
+</section>
+             
+
+      <section class="section container" id="resume">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Resume</p>
+          <h2>Interactive career highlights and work timeline.</h2>
+        </div>
+
+        <div class="resume-tabs reveal delay-1">
+          <button class="resume-tab active" data-tab="experience">Experience</button>
+          <button class="resume-tab" data-tab="education">Education</button>
+          <button class="resume-tab" data-tab="services">Services</button>
+        </div>
+
+        <div class="resume-panels reveal delay-2">
+          <div class="resume-panel active" id="experience">
+            <div class="timeline-item">
+              <span>2026 — Present</span>
+              <h3>Frontend Developer · Freelance</h3>
+              <p>Designing conversion-focused websites, portfolios, and UI systems for independent brands and digital products.</p>
+            </div>
+            <div class="timeline-item">
+              <span>2025 — 2026</span>
+              <h3>UI Developer · Creative Studio</h3>
+              <p>Built responsive interfaces, landing pages, and internal design systems with a strong attention to motion and brand consistency.</p>
+            </div>
+            <div class="timeline-item">
+              <span>2024 — 2025</span>
+              <h3>Web Designer & Developer</h3>
+              <p>Delivered modern websites for small businesses and creators, covering layout design, implementation, and SEO foundations.</p>
+            </div>
+          </div>
+
+          <div class="resume-panel" id="education">
+            <div class="timeline-item">
+              <span>2024</span>
+              <h3>Bachelor’s in Computer Science</h3>
+              <p>Studied web technologies, interaction design fundamentals, and frontend engineering practices.</p>
+            </div>
+            <div class="timeline-item">
+              <span>Ongoing</span>
+              <h3>Continuous learning</h3>
+              <p>Advanced CSS architecture, interaction design, accessibility patterns, and SEO implementation.</p>
+            </div>
+          </div>
+
+          <div class="resume-panel" id="services">
+            <div class="timeline-item">
+              <span>01</span>
+              <h3>Portfolio websites</h3>
+              <p>Clean personal branding websites for developers, designers, founders, and consultants.</p>
+            </div>
+            <div class="timeline-item">
+              <span>02</span>
+              <h3>Landing pages</h3>
+              <p>High-converting pages with product storytelling, social proof, and clear action paths.</p>
+            </div>
+            <div class="timeline-item">
+              <span>03</span>
+              <h3>UI polish & frontend refinement</h3>
+              <p>Improving motion, consistency, responsiveness, and page quality on existing websites.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container contact-section" id="contact">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Start a project or say hello.</h2>
+        </div>
+
+        <div class="contact-layout">
+          <div class="contact-copy reveal delay-1">
+            <p>
+              Need a personal portfolio, modern landing page, or frontend polish for
+              an existing site? Send a message and I’ll get back with ideas, scope,
+              and next steps.
+            </p>
+            <div class="contact-links">
+              <a href="/cdn-cgi/l/email-protection#37565b524f77524f565a475b521954585a"><span class="__cf_email__" data-cfemail="d4b5b8b1ac94b1acb5b9a4b8b1fab7bbb9">[email&#160;protected]</span></a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal delay-2" id="contact-form">
+            <div class="field-row">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+            </div>
+            <label>
+              Subject
+              <input type="text" name="subject" placeholder="Project inquiry" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="6" placeholder="Tell me about your project" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+            <p class="form-note" id="form-note">
+              Email notifications are ready for integration. Add your EmailJS or FormSubmit credentials in <code>script.js</code> to activate live delivery.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <p>© 2026 Sayali Lande. Crafted with HTML, CSS, and JavaScript.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
